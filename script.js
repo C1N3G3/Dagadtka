@@ -9,8 +9,8 @@ let index = 0;
 
 function setContent(Remove) {
     image.src = data[index].src;
-    title.innerText = data[index].title;
-    text.innerText = data[index].text;
+    title.innerHTML = data[index].title;
+    // text.innerText = data[index].text;
     if (!Remove){
         document.querySelector('.selected').classList.remove('selected');
     }
